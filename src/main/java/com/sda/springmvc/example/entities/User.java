@@ -1,66 +1,55 @@
 package com.sda.springmvc.example.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.persistence.*;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.Date;
 
 @Entity
+@Setter
+@Getter
+@ToString
+@NoArgsConstructor
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
-    @NotBlank(message = "Name is mandatory")
+    private Long id;
+
+    @NotBlank
     private String name;
-    @NotBlank(message = "Email is mandatory")
+
+    @Email
+    @NotBlank
+    @Column(unique = true)
     private String email;
-    @NotBlank(message = "Country is mandatory")
+
+    @NotBlank
     private String country;
 
-    public User() {}
+    private LocalDate dateOfBirth;
+
+    public User(String name, String email, String country, LocalDate dateOfBirth) {
+        this.name = name;
+        this.email = email;
+        this.country = country;
+        this.dateOfBirth = dateOfBirth;
+    }
 
     public User(String name, String email, String country) {
-        this.name = name;
-        this.email = email;
-        this.country = country;
+        this(name, email, country, LocalDate.now());
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" + "id=" + id + ", name=" + name + ", email=" + email + ", country=" + country + "}";
+    public int getAge() {
+        return Period.between(dateOfBirth, LocalDate.now()).getYears();
     }
 }
