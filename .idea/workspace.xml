@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e611f5-fb94-49a6-b2e8-0062abe4fd7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.should_return_main_page">
+  <component name="RunManager" selected="JUnit.UserControllerTest.should_not_register_user_with_invalid_age">
     <configuration name="[DEV] Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.Application" />
       <module name="springMVC" />
@@ -119,6 +120,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserControllerTest.should_not_register_user_with_invalid_age" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springMVC" />
+      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
+      <option name="METHOD_NAME" value="should_not_register_user_with_invalid_age" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserControllerTest.should_return_main_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springMVC" />
       <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
@@ -129,21 +140,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest.__$__delete_me" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest.should_return_registration_form" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springMVC" />
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.repositories.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="__$__delete_me" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.dont_do_this" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMVC" />
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.repositories.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="dont_do_this" />
+      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
+      <option name="METHOD_NAME" value="should_return_registration_form" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,19 +152,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.[DEV] Application" />
-      <item itemvalue="JUnit.UserRepositoryTest.__$__delete_me" />
-      <item itemvalue="JUnit.UserRepositoryTest.dont_do_this" />
       <item itemvalue="JUnit.UserControllerTest.should_return_main_page" />
       <item itemvalue="JUnit.UserControllerTest" />
       <item itemvalue="JUnit.UserControllerTest (1)" />
+      <item itemvalue="JUnit.UserControllerTest.should_return_registration_form" />
+      <item itemvalue="JUnit.UserControllerTest.should_not_register_user_with_invalid_age" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserControllerTest.should_return_main_page" />
+        <item itemvalue="JUnit.UserControllerTest.should_not_register_user_with_invalid_age" />
         <item itemvalue="JUnit.UserControllerTest (1)" />
+        <item itemvalue="JUnit.UserControllerTest.should_return_registration_form" />
+        <item itemvalue="JUnit.UserControllerTest.should_return_main_page" />
         <item itemvalue="JUnit.UserControllerTest" />
-        <item itemvalue="JUnit.UserRepositoryTest.dont_do_this" />
-        <item itemvalue="JUnit.UserRepositoryTest.__$__delete_me" />
       </list>
     </recent_temporary>
   </component>
@@ -191,10 +192,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit message" />
+    <MESSAGE value="Upd test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upd test" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="LocalDate.parse(source, DateTimeFormatter.ISO_DATE)" language="JAVA" />
+      </configuration>
       <configuration name="Application">
         <watch expression="userRepository.findAll()" language="JAVA" />
       </configuration>
