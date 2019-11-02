@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e611f5-fb94-49a6-b2e8-0062abe4fd7a" name="Default Changelist" comment="">
+    <list default="true" id="b5e611f5-fb94-49a6-b2e8-0062abe4fd7a" name="Default Changelist" comment="Add test for new user registration">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.should_not_register_user_with_invalid_age">
+  <component name="RunManager" selected="Application.[DEV] Application">
     <configuration name="[DEV] Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.Application" />
       <module name="springMVC" />
@@ -193,18 +193,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit message" />
     <MESSAGE value="Upd test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upd test" />
+    <MESSAGE value="Add test for new user registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test for new user registration" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="LocalDate.parse(source, DateTimeFormatter.ISO_DATE)" language="JAVA" />
