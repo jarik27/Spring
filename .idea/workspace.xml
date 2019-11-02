@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e611f5-fb94-49a6-b2e8-0062abe4fd7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/DevConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/events/UserSignupEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/notifications/EmailNotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/validation/AgeValidationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user-age-not-valid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user-delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user-not-found.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/repositories/UserRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,6 +188,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit message" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

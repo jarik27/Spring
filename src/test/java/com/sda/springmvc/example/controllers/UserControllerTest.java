@@ -13,6 +13,10 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+import static org.mockito.Mockito.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(UserController.class)
@@ -32,11 +36,11 @@ public class UserControllerTest {
     @Test
     public void should_return_main_page() throws Exception {
         mockMvc
-                .perform(MockMvcRequestBuilders.get("/"))
-                .andExpect(MockMvcResultMatchers.model().attributeExists("users"))
-                .andExpect(MockMvcResultMatchers.status().isOk());
+                .perform(get("/"))
+                .andExpect(model().attributeExists("users"))
+                .andExpect(view().name("index"))
+                .andExpect(status().isOk());
 
-        Mockito.verify(userRepository, Mockito.times(1))
-                .findAll();
+        verify(userRepository, times(1)).findAll();
     }
 }
