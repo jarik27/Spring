@@ -39,6 +39,11 @@ public class RestUserControllerTest {
     @Before
     public void setUp() {
         standaloneSetup(userController);
+
+
+        final long id = 100500L;
+        // TODO create a user
+        // TODO Tell userRepository to return a user
     }
 
     @Test
@@ -115,6 +120,14 @@ public class RestUserControllerTest {
     }
 
     @Test
+    public void should_return_response_with_id() {
+        doReturn(true).when(ageValidationService).isValid(any(User.class));
+
+        postValidEntity()
+               .body("id", CoreMatchers.is(CoreMatchers.equalTo(100500)));
+    }
+
+    @Test
     @Ignore
     public void mockito_test() {
         class Foo {
@@ -129,6 +142,10 @@ public class RestUserControllerTest {
             List<String> tokens() {
                 return Collections.singletonList("Hello");
             }
+
+            String string() {
+                return "1";
+            }
         }
 
         Foo mock = Mockito.mock(Foo.class);
@@ -141,6 +158,8 @@ public class RestUserControllerTest {
         System.out.println(mock.maybeThis());
 
         System.out.println(mock.tokens());
+
+        System.out.println(mock.string());
 
     }
 

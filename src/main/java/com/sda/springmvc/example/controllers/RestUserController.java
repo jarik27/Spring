@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
+import java.util.Optional;
 
 import static org.springframework.http.HttpStatus.*;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
@@ -61,9 +62,22 @@ public class RestUserController {
 
     }
 
+    @PutMapping(value = "/users/{id}", consumes = APPLICATION_JSON_VALUE)
+    public ResponseEntity<User> updateExistingUser(@PathVariable long id, @RequestBody @Valid User user) {
+        return userRepository.findById(id)
+                .map(entity -> update(id, user))
+                .orElseGet(this::userNotFound);
+    }
+
+    private ResponseEntity<User> update(long id, User user) {
+        user.setId(id);
+        userRepository.save(user);
+        return ResponseEntity.noContent().build();
+    }
+
     private ResponseEntity<User> userCreatedResponse(@RequestBody @Valid User user) {
         final User savedUser = userRepository.save(user);
-        return ResponseEntity.status(CREATED).body(user);
+        return ResponseEntity.status(CREATED).body(savedUser);
     }
 
     private ResponseEntity<ErrorMessage> invalidAgeResponse() {

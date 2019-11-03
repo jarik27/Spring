@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e611f5-fb94-49a6-b2e8-0062abe4fd7a" name="Default Changelist" comment="">
+    <list default="true" id="1dba16b6-2757-40e2-834c-a03ee70060b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/RestUserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/RestUserControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,58 +25,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="JUnit4 Test Class" />
-      </list>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
     </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MacroExpansionManager">
-    <option name="directoryName" value="RokourEk" />
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="1S63om4NQK29EnocofEQtnUde9Q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1T6fclZxcG1TEQQzER8JjEeScvS" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;JAVA" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.sda.springmvc.example.controllers" />
-      <recent name="com.sda.springmvc.example.repositories" />
-      <recent name="com.sda.springmvc.example.entities" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sda.springmvc.example.repositories" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,141 +67,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestUserControllerTest">
-    <configuration name="[DEV] Application" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.Application" />
-      <module name="springMVC" />
-      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="users" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sda.springmvc.example.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
-      <setting name="replType" value="NREPL" />
-      <setting name="execution" value="LEININGEN" />
-      <module name="" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
-      <setting name="host" value="" />
-      <setting name="port" value="0" />
-      <setting name="replType" value="0" />
-      <module name="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RestUserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMVC" />
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestUserControllerTest.mockito_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMVC" />
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
-      <option name="METHOD_NAME" value="mockito_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestUserControllerTest.should_invoke_age_validation_service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMVC" />
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
-      <option name="METHOD_NAME" value="should_invoke_age_validation_service" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestUserControllerTest.should_return_bad_request_when_age_is_not_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMVC" />
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
-      <option name="METHOD_NAME" value="should_return_bad_request_when_age_is_not_valid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestUserControllerTest.should_save_new_user_to_a_database" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMVC" />
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
-      <option name="METHOD_NAME" value="should_save_new_user_to_a_database" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.[DEV] Application" />
-      <item itemvalue="JUnit.RestUserControllerTest" />
-      <item itemvalue="JUnit.RestUserControllerTest.should_invoke_age_validation_service" />
-      <item itemvalue="JUnit.RestUserControllerTest.should_return_bad_request_when_age_is_not_valid" />
-      <item itemvalue="JUnit.RestUserControllerTest.mockito_test" />
-      <item itemvalue="JUnit.RestUserControllerTest.should_save_new_user_to_a_database" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.RestUserControllerTest" />
-        <item itemvalue="JUnit.RestUserControllerTest.should_save_new_user_to_a_database" />
-        <item itemvalue="JUnit.RestUserControllerTest.should_return_bad_request_when_age_is_not_valid" />
-        <item itemvalue="JUnit.RestUserControllerTest.mockito_test" />
-        <item itemvalue="JUnit.RestUserControllerTest.should_invoke_age_validation_service" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SbtLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/dropwizard_dojo/account-service" value="PREVIEW" />
-        <entry key="$USER_HOME$/dropwizard_dojo/dropwizard-scala" value="PREVIEW" />
-        <entry key="$USER_HOME$/scala_dojo/scala-integration-test-example" value="PREVIEW" />
-      </map>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5dc7c80a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5dc7c80a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@ec425c6" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
     </option>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dba16b6-2757-40e2-834c-a03ee70060b5" name="Default Changelist" comment="" />
+      <created>1572785547712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572785547712</updated>
+      <workItem from="1572785550256" duration="2700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit message" />
-    <MESSAGE value="Upd test" />
-    <MESSAGE value="Add test for new user registration" />
-    <MESSAGE value="Add GET, DELETE REST endpoints" />
-    <MESSAGE value="Start adding user create endpoint" />
-    <MESSAGE value="Validate user age" />
-    <MESSAGE value="Save valid user to db" />
-    <MESSAGE value="Refactor RestUserController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor RestUserController" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="LocalDate.parse(source, DateTimeFormatter.ISO_DATE)" language="JAVA" />
-      </configuration>
-      <configuration name="Application">
-        <watch expression="userRepository.findAll()" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
