@@ -55,16 +55,23 @@ public class RestUserController {
 
     @PostMapping(value = "/users", consumes = APPLICATION_JSON_VALUE, produces = APPLICATION_JSON_VALUE)
     public ResponseEntity<?> createNewUser(@RequestBody @Valid User user) {
-        if (!ageValidationService.isValid(user)) {
-            return ResponseEntity.status(BAD_REQUEST)
-                    .body(new ErrorMessage(
-                            BAD_REQUEST.value(),
-                            BAD_REQUEST.getReasonPhrase(),
-                            "Age is not valid"));
-        } else {
-            final User savedUser = userRepository.save(user);
-            return ResponseEntity.status(CREATED).body(user);
-        }
+        return ageValidationService.isValid(user)
+                ? userCreatedResponse(user)
+                : invalidAgeResponse();
+
+    }
+
+    private ResponseEntity<User> userCreatedResponse(@RequestBody @Valid User user) {
+        final User savedUser = userRepository.save(user);
+        return ResponseEntity.status(CREATED).body(user);
+    }
+
+    private ResponseEntity<ErrorMessage> invalidAgeResponse() {
+        return ResponseEntity.status(BAD_REQUEST)
+                .body(new ErrorMessage(
+                        BAD_REQUEST.value(),
+                        BAD_REQUEST.getReasonPhrase(),
+                        "Age is not valid"));
     }
 
     private ResponseEntity<User> ok(User user) {

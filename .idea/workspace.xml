@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e611f5-fb94-49a6-b2e8-0062abe4fd7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/RestUserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/RestUserControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +198,9 @@
     <MESSAGE value="Add GET, DELETE REST endpoints" />
     <MESSAGE value="Start adding user create endpoint" />
     <MESSAGE value="Validate user age" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validate user age" />
+    <MESSAGE value="Save valid user to db" />
+    <MESSAGE value="Refactor RestUserController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor RestUserController" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
