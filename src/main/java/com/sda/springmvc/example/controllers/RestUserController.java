@@ -4,7 +4,6 @@ import com.sda.springmvc.example.entities.User;
 import com.sda.springmvc.example.repositories.UserRepository;
 import com.sda.springmvc.example.validation.AgeValidationService;
 import lombok.Data;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,11 +11,10 @@ import javax.validation.Valid;
 import java.util.List;
 
 import static org.springframework.http.HttpStatus.*;
-import static org.springframework.http.MediaType.*;
+import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
 @RequestMapping("/api")
-// Ctrl Shift T
 public class RestUserController {
 
     private final UserRepository userRepository;
@@ -48,7 +46,6 @@ public class RestUserController {
                 .orElseGet(this::userNotFound);
     }
 
-    //Ctrl + Click
     @Data
     private static class ErrorMessage {
         private final int status;
@@ -65,6 +62,7 @@ public class RestUserController {
                             BAD_REQUEST.getReasonPhrase(),
                             "Age is not valid"));
         } else {
+            final User savedUser = userRepository.save(user);
             return ResponseEntity.status(CREATED).body(user);
         }
     }

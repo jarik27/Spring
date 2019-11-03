@@ -104,6 +104,17 @@ public class RestUserControllerTest {
     }
 
     @Test
+    public void should_save_new_user_to_a_database() {
+        doReturn(true).when(ageValidationService).isValid(any(User.class));
+
+        postValidEntity()
+                .contentType(MediaType.APPLICATION_JSON_VALUE)
+                .statusCode(HttpStatus.CREATED.value());
+
+        verify(userRepository, times(1)).save(any(User.class));
+    }
+
+    @Test
     @Ignore
     public void mockito_test() {
         class Foo {
