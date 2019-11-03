@@ -4,7 +4,7 @@
     <list default="true" id="b5e611f5-fb94-49a6-b2e8-0062abe4fd7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/RestUserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/RestUserControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -43,6 +43,10 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -50,11 +54,11 @@
       <recent name="com.sda.springmvc.example.repositories" />
       <recent name="com.sda.springmvc.example.entities" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sda.springmvc.example.repositories" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sda.springmvc.example.repositories" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
@@ -73,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.[DEV] Application">
+  <component name="RunManager" selected="JUnit.RestUserControllerTest.should_return_bad_request_when_age_is_not_valid">
     <configuration name="[DEV] Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.Application" />
       <module name="springMVC" />
@@ -100,52 +104,50 @@
       <module name="" />
       <method v="2" />
     </configuration>
-    <configuration name="UserControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestUserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springMVC" />
       <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestUserControllerTest.mockito_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springMVC" />
       <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-debug" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.should_not_register_user_with_invalid_age" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMVC" />
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="should_not_register_user_with_invalid_age" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
+      <option name="METHOD_NAME" value="mockito_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.should_return_main_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestUserControllerTest.should_invoke_age_validation_service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springMVC" />
       <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="should_return_main_page" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
+      <option name="METHOD_NAME" value="should_invoke_age_validation_service" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.should_return_registration_form" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestUserControllerTest.should_reject_empty_json" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springMVC" />
       <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="should_return_registration_form" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
+      <option name="METHOD_NAME" value="should_reject_empty_json" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestUserControllerTest.should_return_bad_request_when_age_is_not_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springMVC" />
+      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.RestUserControllerTest" />
+      <option name="METHOD_NAME" value="should_return_bad_request_when_age_is_not_valid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,19 +155,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.[DEV] Application" />
-      <item itemvalue="JUnit.UserControllerTest.should_return_main_page" />
-      <item itemvalue="JUnit.UserControllerTest" />
-      <item itemvalue="JUnit.UserControllerTest (1)" />
-      <item itemvalue="JUnit.UserControllerTest.should_return_registration_form" />
-      <item itemvalue="JUnit.UserControllerTest.should_not_register_user_with_invalid_age" />
+      <item itemvalue="JUnit.RestUserControllerTest" />
+      <item itemvalue="JUnit.RestUserControllerTest.should_reject_empty_json" />
+      <item itemvalue="JUnit.RestUserControllerTest.should_invoke_age_validation_service" />
+      <item itemvalue="JUnit.RestUserControllerTest.should_return_bad_request_when_age_is_not_valid" />
+      <item itemvalue="JUnit.RestUserControllerTest.mockito_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserControllerTest.should_not_register_user_with_invalid_age" />
-        <item itemvalue="JUnit.UserControllerTest (1)" />
-        <item itemvalue="JUnit.UserControllerTest.should_return_registration_form" />
-        <item itemvalue="JUnit.UserControllerTest.should_return_main_page" />
-        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.RestUserControllerTest.should_return_bad_request_when_age_is_not_valid" />
+        <item itemvalue="JUnit.RestUserControllerTest.mockito_test" />
+        <item itemvalue="JUnit.RestUserControllerTest" />
+        <item itemvalue="JUnit.RestUserControllerTest.should_invoke_age_validation_service" />
+        <item itemvalue="JUnit.RestUserControllerTest.should_reject_empty_json" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +198,9 @@
     <MESSAGE value="Upd test" />
     <MESSAGE value="Add test for new user registration" />
     <MESSAGE value="Add GET, DELETE REST endpoints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add GET, DELETE REST endpoints" />
+    <MESSAGE value="Start adding user create endpoint" />
+    <MESSAGE value="Validate user age" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validate user age" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
