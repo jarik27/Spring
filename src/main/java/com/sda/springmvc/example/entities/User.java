@@ -1,18 +1,17 @@
 package com.sda.springmvc.example.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
-import java.time.Duration;
+import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.Date;
 
 @Entity
 @Setter
@@ -36,6 +35,7 @@ public class User {
     @NotBlank
     private String country;
 
+    @NotNull
     private LocalDate dateOfBirth;
 
     public User(String name, String email, String country, LocalDate dateOfBirth) {
@@ -49,6 +49,7 @@ public class User {
         this(name, email, country, LocalDate.now());
     }
 
+    @JsonIgnore
     public int getAge() {
         return Period.between(dateOfBirth, LocalDate.now()).getYears();
     }

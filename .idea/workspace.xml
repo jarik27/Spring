@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e611f5-fb94-49a6-b2e8-0062abe4fd7a" name="Default Changelist" comment="Add test for new user registration">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" afterDir="false" />
+    <list default="true" id="b5e611f5-fb94-49a6-b2e8-0062abe4fd7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +195,8 @@
     <MESSAGE value="Commit message" />
     <MESSAGE value="Upd test" />
     <MESSAGE value="Add test for new user registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test for new user registration" />
+    <MESSAGE value="Add GET, DELETE REST endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add GET, DELETE REST endpoints" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

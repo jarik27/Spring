@@ -3,9 +3,11 @@ package com.sda.springmvc.example.controllers;
 import com.sda.springmvc.example.entities.User;
 import com.sda.springmvc.example.repositories.UserRepository;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -23,7 +25,7 @@ public class RestUserController {
         return userRepository.findAll();
     }
 
-    @GetMapping("/users/{id}")
+    @GetMapping(value = "/users/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<User> fetchUserById(@PathVariable long id) {
         return userRepository.findById(id)
                 .map(this::ok)
@@ -35,6 +37,12 @@ public class RestUserController {
         return userRepository.findById(id)
                 .map(this::delete)
                 .orElseGet(this::userNotFound);
+    }
+
+    @PostMapping(value = "/users", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<?> createNewUser(@RequestBody @Valid User user) {
+
+        return ResponseEntity.status(HttpStatus.CREATED).body(user);
     }
 
     private ResponseEntity<User> ok(User user) {
